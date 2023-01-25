@@ -96,7 +96,7 @@ const CreatePost = () => {
                         labelName="Your Name"
                         type="text"
                         name="name"
-                        placeholder="Ex., john doe"
+                        placeholder="Ex. Mos"
                         value={form.name}
                         handleChange={handleChange}
                     />
@@ -105,7 +105,7 @@ const CreatePost = () => {
                         labelName="Prompt"
                         type="text"
                         name="prompt"
-                        placeholder="An Impressionist oil painting of sunflowers in a purple vase…"
+                        placeholder="พิมพ์อะไรก็ได้ เช่น 'Iron Man'"
                         value={form.prompt}
                         handleChange={handleChange}
                         isSurpriseMe
